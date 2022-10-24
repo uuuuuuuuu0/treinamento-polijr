@@ -5,6 +5,7 @@ export const HighlightConteiner = styled.div`
     flex-direction: row;
     align-items: center;
     gap: 8px;
+    margin: 32px 0px 0px 0px;
 `;
 
 export const HighlightImage = styled.img`

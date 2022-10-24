@@ -89,24 +89,24 @@ const HomeTemplate = () => {
             imgSrc: './assets/eleicoes_2022.png'
         },
         {
-            title: 'Eleições 2022',
-            text: 'Eleição em São Paulo: veja Tweets sobre a disputa de 2° turno entre Tarcísio e Haddad',
-            imgSrc: './assets/eleicoes_2022.png'
+            title: '#AppleTeacher',
+            text: 'Na semana do Dia do Professor, agradecemos sua paixão e dedicação!',
+            imgSrc: './assets/apple_teacher.png'
         },
         {
-            title: 'Eleições 2022',
-            text: 'Eleição em São Paulo: veja Tweets sobre a disputa de 2° turno entre Tarcísio e Haddad',
-            imgSrc: './assets/eleicoes_2022.png'
+            title: 'A Fazenda',
+            text: "'A Fazenda 14': Veja os Pius sobre o programa",
+            imgSrc: './assets/a_fazenda.png'
         },
         {
-            title: 'Eleições 2022',
-            text: 'Eleição em São Paulo: veja Tweets sobre a disputa de 2° turno entre Tarcísio e Haddad',
-            imgSrc: './assets/eleicoes_2022.png'
+            title: 'Vôlei',
+            text: 'Sérvia derrota o Brasil e é campeã mundial de vôlei feminino',
+            imgSrc: './assets/volei.png'
         },
         {
-            title: 'Eleições 2022',
-            text: 'Eleição em São Paulo: veja Tweets sobre a disputa de 2° turno entre Tarcísio e Haddad',
-            imgSrc: './assets/eleicoes_2022.png'
+            title: 'Clima tenso no NTec',
+            text: 'Gomes é apelidado de Campos e se irrita com companheiros',
+            imgSrc: './assets/clima_tenso_ntec.png'
         }
     ];
 
