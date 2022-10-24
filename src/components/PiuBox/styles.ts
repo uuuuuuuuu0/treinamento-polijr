@@ -8,7 +8,6 @@ interface PassInterface {
 export const Conteiner = styled.div<PassInterface>`
     display: ${(pass) => (pass.isDestroyed ? 'none' : 'flex')};
     flex-direction: column;
-    align-items: flex-start;
     padding: 16px;
     gap: 16px;
     width: 1004px;
@@ -52,7 +51,6 @@ export const UpperConteiner = styled.div`
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    gap: 580px;
 `;
 
 export const ButtonConteiner = styled.div`
