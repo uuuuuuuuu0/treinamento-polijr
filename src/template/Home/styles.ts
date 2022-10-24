@@ -135,7 +135,6 @@ export const HighlighInternalDiv = styled.div`
     height: 1px;
     width: 100%;
     background: #e1e7ff;
-    margin: 0px 0px 0px 0px;
 `;
 
 export const HighlightConteiner = styled.div`
