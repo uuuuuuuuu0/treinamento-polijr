@@ -76,4 +76,6 @@ export const OptionNumber = styled.span`
     color: #ffffff;
 `;
 
-export const Imgimg = styled.img``;
+export const ButtonImg = styled.input``;
+
+export const NormalImg = styled.img``;
