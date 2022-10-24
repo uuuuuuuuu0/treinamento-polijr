@@ -26,8 +26,6 @@ interface Highlight {
 }
 
 const HomeTemplate = () => {
-    const selectiontrue = true;
-
     const [piuText, setPiuText] = useState('');
 
     const [lenCheck, setLenCheck] = useState(false);
@@ -135,32 +133,32 @@ const HomeTemplate = () => {
                     <NavComponent
                         title="Página Inicial"
                         imageSrc="./assets/pagina_inicial.svg"
-                        selected={selectiontrue}
+                        selected
                     />
                     <NavComponent
                         title="Notificações"
                         imageSrc="./assets/notificacoes.svg"
-                        selected={!selectiontrue}
+                        selected={false}
                     />
                     <NavComponent
                         title="Mensagens"
                         imageSrc="./assets/mensagens.svg"
-                        selected={!selectiontrue}
+                        selected={false}
                     />
                     <NavComponent
                         title="Salvos"
                         imageSrc="./assets/salvos.svg"
-                        selected={!selectiontrue}
+                        selected={false}
                     />
                     <NavComponent
                         title="Perfil"
                         imageSrc="./assets/perfil.svg"
-                        selected={!selectiontrue}
+                        selected={false}
                     />
                     <NavComponent
                         title="Configurações"
                         imageSrc="./assets/configuracoes.svg"
-                        selected={!selectiontrue}
+                        selected={false}
                     />
                 </S.NavContainer>
             </S.SideBarConteiner>
@@ -192,7 +190,7 @@ const HomeTemplate = () => {
                         />
                     </S.InnerPostPiuConteiner>
                 </S.PostPiuConteiner>
-                <S.FeedConteiner id="feedConteinerId">
+                <S.FeedConteiner>
                     {piuArray.map((piu) => (
                         <PiuBox
                             userName={piu.user.userName}
