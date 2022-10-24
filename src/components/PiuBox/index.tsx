@@ -21,15 +21,28 @@ const PiuBox: React.FC<PiuBox> = ({
     const [likeImgSource, setLikedImgSource] = useState('./assets/like.svg');
     const [realLikes, setRealLikes] = useState(numberLikes);
 
+    const [hidden, setHidden] = useState(false);
+
     return (
-        <S.Conteiner>
+        <S.Conteiner isDestroyed={hidden}>
             <S.UserInfoConteiner>
-                <S.ImageAndNameConteiner>
-                    <S.UserImage src={userImageSrc} />
-                    <S.UserNameAndTag>
-                        {userName} @{userTag}
-                    </S.UserNameAndTag>
-                </S.ImageAndNameConteiner>
+                <S.UpperConteiner>
+                    <S.ImageAndNameConteiner>
+                        <S.UserImage src={userImageSrc} />
+                        <S.UserNameAndTag>
+                            {userName} @{userTag}
+                        </S.UserNameAndTag>
+                    </S.ImageAndNameConteiner>
+                    <S.ButtonConteiner>
+                        <S.ButtonImg
+                            type="image"
+                            src="./assets/delete.svg"
+                            onClick={() => {
+                                setHidden(true);
+                            }}
+                        />
+                    </S.ButtonConteiner>
+                </S.UpperConteiner>
                 <S.Text>{text}</S.Text>
             </S.UserInfoConteiner>
             <S.OptionsBar>
