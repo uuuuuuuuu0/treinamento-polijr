@@ -20,7 +20,7 @@ export const NavContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 40px;
+    gap: 8px;
 `;
 
 export const SideBarConteiner = styled.div`
